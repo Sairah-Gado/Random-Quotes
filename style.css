@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Lugrasimo&family=Playfair+Display:wght@600&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,400;0,900;1,400&family=Skranji&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+.quotes {
+    padding: 25px;
+    text-align: center;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.airplane-div {
+    position: relative;
+}
+.quotesDiv {
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+    background-color: grey;
+    width: 100px;
+    padding: 10px;
+}
+#clickBtn{
+    margin: 50px; 
+    box-shadow: 5px 10px 8px #888888;  
+}
+@media screen and (max-width: 768px) {
+    .quotes{
+        font-size: 15px;
+    }
+    .btn {
+        background-color: grey;
+        width: 80px;
+        padding: 5px;
+    }
+    #clickBtn{
+        margin: 10px; 
+        box-shadow: 5px 10px 8px #888888;  
+    }
+}
